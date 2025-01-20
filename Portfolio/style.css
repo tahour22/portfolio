@@ -1,0 +1,20 @@
+*{
+    margin: 10px;
+    padding: 10px;}
+body{
+    background-color: tan;
+
+
+}
+a{
+    display: flex;
+    float: right;
+    color: rgb(7, 7, 7);
+}
+#about{background-color: rgb(24, 66, 143);
+
+}
+img{border:2px solid black ;}
+.bir{
+height: 250px;
+}
