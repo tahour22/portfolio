@@ -1,20 +1,121 @@
 *{
-    margin: 10px;
-    padding: 10px;}
-body{
+    margin: 5px;
+    padding: 5px;}
+    /*Main page color */
+    #main{
     background-color: tan;
 
 
 }
+/*Link of index */
 a{
     display: flex;
     float: right;
     color: rgb(7, 7, 7);
 }
-#about{background-color: rgb(24, 66, 143);
+/*About page  */
+#about{
+    background-color: rgb(145, 135, 135);
+}
+/*Images */
+img{border:2px solid black ;
+    border-radius: 5px;
 
 }
-img{border:2px solid black ;}
 .bir{
 height: 250px;
+}
+/*This is box1 */
+div{
+
+    padding: 1px;
+    width: 200px;
+    border: 5px;
+    height: 100px;
+}
+#services{
+    background-color: rgb(161, 27, 27);
+}
+.ph{
+    border: 1px solid whitesmoke;
+    width: 200px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(161, 27, 27); /*Maroon background */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 15px; /* Space between menu items */
+    align-items: center;
+}
+
+.nav-list li {
+    position: relative;
+    padding: 0 15px;
+}
+
+.nav-list li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 50%;
+    background-color: rgb(255, 255, 255); /* Black vertical lines */
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rotating-box {
+    border-radius:50px;
+    width: 100px;
+    height: 100px;
+    background-color: #9e1515;
+    animation: rotate 2s;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.img1{
+    border-radius: 50PX;
+    height: 80px;
+    width: 80px;
+    border: none;
+}
+.nav3{
+    background-color: whitesmoke;
+    width: 1315PX;
+  float: left;
+  align-items: center;
+  text-align: center;
+}
+.button1{
+    background-color:  #9e1515;
+    border-radius: 50px;
+    color: white;
 }
